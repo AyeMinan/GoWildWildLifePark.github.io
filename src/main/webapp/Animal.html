@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+body{
+background-image: linear-gradient(rgba(0.25,0.5,0.5,0.5),rgba(0.25,0.5,0.5,0.5)),url('allanimal.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  width: 300px;
+  height: 500px;
+}
+p{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+form{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Animal</h2>
+	<form method="post" action="AnimalAction.jsp" name="form">
+	Animal Name:<input type="text" name="animal name" required><br><br>
+	Animal Gender:<input type="text" name="animal gender" required><br><br>
+	Year Arrived:<input type="text" name="year arrived" required><br><br>
+	Keepers Id:<input type="text" name="keeper id" required><br><br>
+	Diet Id:<input type="text" name="diet id" required><br><br>
+	Species Id:<input type="text" name="species id" required><br><br>
+	Enclosure Id:<input type="text" name="enclosure id" required><br><br>
+	
+	
+		
+	
+		
+		<input type="submit" name="submit" value="Register">
+		<input type="reset" name="reset" value="Clear">
+	
+	</form>
+
+</body>
+</html>

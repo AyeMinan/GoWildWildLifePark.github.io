@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+body{
+background-image: linear-gradient(rgba(0.25,0.5,0.5,0.5),rgba(0.25,0.5,0.5,0.5)),url('allanimal.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  width: 300px;
+  height: 500px;
+}
+p{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+form{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Enclosure/Go Wild WildLife Park</title>
+</head>
+<body>
+<h2>Enclosure</h2>
+<p>Each animal is assigned to each Enclosure<p>
+	
+	<form method="post" action="EnclosureAction.jsp" name="form">
+	Enclosure type:<input type="text" name="enclosure type" required><br><br>
+		Location:<input type="text" name="location" required><br><br>
+		
+		<input type="submit" name="submit" value="Register">
+		<input type="reset" name="reset" value="Clear">
+	
+	</form>
+
+</body>
+</html>

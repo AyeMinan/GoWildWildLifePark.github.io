@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+body{
+background-image: linear-gradient(rgba(0.25,0.5,0.5,0.5),rgba(0.25,0.5,0.5,0.5)),url('allanimal.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  width: 300px;
+  height: 500px;
+}
+p{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+form{
+ color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Diet/Go Wild Wild Life Park</title>
+</head>
+<body>
+<h2>Diet</h2>
+	
+	<form method="post" action="DietAction.jsp" name="form">
+	Diet type:<input type="text" name="Diet_type" ><br><br>
+		Feeds per day:<input type="text" name="feeds_per_day" required><br><br>
+		
+		<input type="submit" name="submit" value="Register">
+		<input type="reset" name="reset" value="Clear">
+	
+	</form>
+
+
+</body>
+</html>
